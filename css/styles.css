@@ -1,4 +1,59 @@
 body{
     background-image: url('../images/bc.jpg');
-}
+    margin: 0;
+    padding: 0;
     
+}
+
+#aboutUs{
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 10vh;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#aboutUs p{
+    font-size: 20px;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+#order1{
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 10vh;
+}
+
+#order1>p{
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#offer{
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 10vh;
+}
+
+#offer>p{
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#btn{
+    margin-bottom: 10px;
+    margin-left: 6vw;
+}
