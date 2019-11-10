@@ -34,18 +34,30 @@ h3{
     text-align: center;
 }
 
-#order1{
-    border: 2px solid greenyellow;
-    border-radius: 5px;
-    background-color: black;
-    color: whitesmoke;
+form{
+    display: block;
+    color: rgb(116, 196, 42);
     margin-top: 5vh;
+    border: 2px palevioletred solid;
 }
 
-#order1>p{
-    font-size: 20px;
-    margin: 20px;
-    text-align: center;
+label{
+    width: 15vh;
+}
+
+label, select{
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+#btn{
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+    color: greenyellow;
+}
+
+#btn:hover{
+    color: grey;
 }
 
 #offer{
@@ -62,15 +74,7 @@ h3{
     text-align: center;
 }
 
-#btn{
-    margin-bottom: 10px;
-    margin-left: 6vw;
-    color: green;
-    background-color: greenyellow;
-    height: 5em;
-    border-radius: 2em;
-    
-}
+
 
 a{
     color: yellow;
