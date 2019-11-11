@@ -79,3 +79,7 @@ label, select{
 a{
     color: yellow;
 }
+
+#toppings{
+    margin: 0 20%;
+}
