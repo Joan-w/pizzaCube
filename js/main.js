@@ -3,12 +3,12 @@ function placeOrder(){
     var pCrust = document.getElementById("pizzaCrust").value;
     var pToppings = document.getElementById("pizzaToppings").value;
  
-    function grossPrice (pSize, pCrust, pToppings){
+    function placeOrder (pSize, pCrust, pToppings){
         this.pizzaSize = pSize;
         this.pizzaCrust = pCrust;
         this. pizzaToppings = pToppings;
         this.location = delivery;
-        this.price
+        this.price = 0;
     }
     let sizes = ["large", "medium", "small"];
     let crust = ["chicago", "Neopoletan", "Deep-fish"];
@@ -17,11 +17,13 @@ function placeOrder(){
 
 
     if (this.pizzaSize == sizes[0]) {
-        return 
-    } else if{
-        
-    } else if{
-        
+        this.price += 2000;
+    } 
+    else if(this.pizzaSize == sizes[1]){
+        this.price += 1500;
+    }
+    else if(this.pizzaSize == sizes[2]){
+        this.price += 1000;
     }
 
 
