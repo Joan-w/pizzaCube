@@ -1,7 +1,7 @@
 # Pizza Cube
 
 By: Murathe Isaac.
-![Pizza Cube]()
+![Pizza Cube](https://github.com/Murathe/pizzaCube/blob/master/images/pZss.png)
 
 # Live link
 For a quick navigation to my Delani Studio web application, follow through this link: https://murathe.github.io/pizzaCube/
@@ -23,11 +23,13 @@ This is an online Pizza ordering and delivery requests application.
 Project capabilities                           |         input                           | ouput
 -----------------------------------------------|-----------------------------------------|-------------------------------------------------
 Take and calculate clients taste & cost        |       Size, crust & topping             |   Calculate cost and confirm delivery location
-Respond to users mouse related activities      |       Mouse hovering                    |   Project names upon hovering over the portfolio
-Capture visitor's information                  |       Name, email & message             |   Alert user if some form fields not filled
+Respond users price enquiry                    |       Pre chec   kout                   |   Before final confirmation, price is ouputted.
+
 
 
 # SUPPORT & COLLABORATION
+
+Clone the project by running | git clone https://github.com/Murathe/pizzaCube.git and open your fav editor | code . or atom . to strat making chnages.
 
 To anyone who'd like to add a feature to th site, kindly clone the site -  and further contact me on the permission to merge your changes.
 

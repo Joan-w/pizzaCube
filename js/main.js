@@ -15,19 +15,19 @@ function placeOrder(){
     let toppings = ["pepperoni", "onions", "sausages"];
 
 
+    order.prototype.totalCost = function(){
+        if (this.pizzaSize == sizes[0]) {
+            this.price += 2000;
+        } 
+        else if(this.pizzaSize == sizes[1]){
+            this.price += 1500;
+        }
+        else if(this.pizzaSize == sizes[2]){
+            this.price += 1000;
+        }
 
-    if (this.pizzaSize == sizes[0]) {
-        this.price += 2000;
-    } 
-    else if(this.pizzaSize == sizes[1]){
-        this.price += 1500;
+
     }
-    else if(this.pizzaSize == sizes[2]){
-        this.price += 1000;
-    }
-
-
-
 
 
 }
