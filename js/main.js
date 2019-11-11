@@ -8,15 +8,18 @@
         this.location = delivery;
         this.price = 0;
     }
-    
+
     let sizes = ["large", "medium", "small"];
     let crust = ["chicago", "Neopoletan", "Deep-fish"];
     let toppings = ["pepperoni", "onions", "sausages"];
 
 
     order.prototype.totalCost = function(){
-        if (this.pizzaSize == sizes[0]) {
-            alert("Your order for a " + pSize + " has been received!");
+        if(this.pizzaSize === "" || this.pizzaCrust === "" || this.pizzaToppings === ""){
+            alert("Please specify your pizza choice!");
+        }
+        else if(this.pizzaSize == pizzaSize[0]) {
+            alert("Your order for a " + sizes + " has been received!");
         } 
         else if(this.pizzaSize == sizes[1]){
             this.price += 1500;
