@@ -45,29 +45,28 @@
             <div class="col-md-4" id="">
                 <div class="placeOrder">
                     <form>
+                        <h2>Place your order</h2>
                         <div id="size">
                             <label for="pizzaSize">Select size</label>
                             <select class="sizes" id="pizzaSize">
-                                <option label="Large -2000" value="large"></option>
-                                <option label="Medium - 1500" value="medium"></option>
-                                <option label="Small - 1000" value="small"></option>
+                                <option id="large" label="Large -2000" value="large"></option>
+                                <option id="medium" label="Medium - 1500" value="medium"></option>
+                                <option id="small" label="Small - 1000" value="small"></option>
                             </select>
                         </div>
                         <div id="crust">
                             <label for="pizzaCrust">Slecet crust</label>
                             <select class="" id="pizzaCrust">
-                                <option label="Chicago - 700" value="chicago"></option>
-                                <option label="Neopoletan - 600" value="neopoletan"></option>
-                                <option label="Deep-fish - 500" value="deep-fish"></option>
+                                <option id="chicago" label="Chicago - 700" value="700"></option>
+                                <option id="neopoletan" label="Neopoletan - 600" value="600"></option>
+                                <option id="deep-fish" label="Deep-fish - 500" value="500"></option>
                             </select>
                         </div>
                         <div id="toppings">
-                            <label for="pizzaTopping">Select toppings</label>
-                            <select class="topping" id="pizzaToppings">
-                                <button label="Pepperoni" value="pepperoni"></option>
-                                <button label="Onions" value="onions"></option>
-                                <option label="Sausages" value="sausages"></option>
-                            </select>
+                            <label for="pizzaTopping">Select toppings</label></br>
+                            <input type="checkbox" name="topping0" value="100">Pepperoni</br>
+                            <input type="checkbox" name="topping0" value="80">Mushroom</br>
+                            <input type="checkbox" name="topping0" value="50">Sausages</br> 
                         </div>
                         <div id="btn">
                             <button type="button" id="btn" onclick="placeOrder()" label="">Confirm</button>
