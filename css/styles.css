@@ -6,7 +6,7 @@ body{
 }
 
 #twoImages{
-    margin-top: 2vh;
+    margin-top: 0vh;
 }
 
 img{
@@ -55,8 +55,14 @@ label{
 }
 
 label, select{
-    margin-top: 2vh;
+    margin-top: 1vh;
     margin-left: 2vh;
+}
+
+input[type=number]{
+    margin-top: 1vh;
+    margin-left: 2vh;
+    width: 5vw;
 }
 
 #btn{
@@ -83,8 +89,6 @@ label, select{
     margin: 20px;
     text-align: center;
 }
-
-
 
 a{
     color: yellow;
