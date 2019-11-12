@@ -9,9 +9,11 @@
         var totalCost = (pSize + pCrust + pToppings) * quant;
 
         alert(`Your order has been received amounting to ${totalCost}`);
+        prompt(`please enterb your location.`);
+        alert(`Your order will be delivered in afew, please have some ksh. 200 for delivery.`)
 
         if (delivery.checked) {
-            prompt(`please enterb your location.`);
+            
         } else {
             
         }
